@@ -13,5 +13,6 @@ function [J, theta, hypothesis] = linearRegMain(X, y, alpha, iteration)
 
 	end
 
-	theta(end, :) = [];
+	theta(1, :) = [];
+
 end
